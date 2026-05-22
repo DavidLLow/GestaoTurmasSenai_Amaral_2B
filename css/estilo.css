@@ -1,43 +1,14 @@
 @charset "UTF-8";
 
 @import"reset.css";
-*{
-    font-family: Anton,Poppins;
-}
-body{
+@import"cores.css";
 
-  
-
-  background:#886c6c;
-
- 
+@font-face {
+    font-family: Lemontea;
+    src:url(fonts/Lemontea.ttf)
 }
-header{
-    background-color: aqua;
-    padding: 10px 10px 10px 10px;
-}
-ul{
-    text-align: center;
-    list-style: none;
-}
-ul li{
-    display: inline-block;
-    padding:  10px;
-    background-color: red;
-}
-ul li:hover{
-    background-color: rgb(46, 131, 25);
-}
-ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: blanchedalmond;
-}
-.logo{
-
-  color:white;
-  font-size:40px;
-  font-family:'Anton', sans-serif;
-  letter-spacing:2px;
-
+body {
+    background-color: var(--dusty-lavender);
+    color: var(--white);
+    font-family: Lemontea;
 }
